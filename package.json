@@ -4,8 +4,9 @@
   "description": "Automation script for Tools QA Demo website written in TestCafe",
   "main": "index.js",
   "scripts": {
-    "test-chrome-webTableTest": "testcafe chrome test/WebTableTest.js",
-    "test-chrome-checkboxTest": "testcafe chrome test/CheckboxTest.js"
+    "test-firefox-all": "testcafe firefox test/*.js",
+    "test-firefox-webTableTest": "testcafe firefox test/WebTableTest.js",
+    "test-firefox-checkboxTest": "testcafe firefox test/CheckboxTest.js"
   },
   "repository": {
     "type": "git",
