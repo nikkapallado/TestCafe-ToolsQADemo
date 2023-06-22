@@ -1,0 +1,22 @@
+{
+  "name": "testcafe-toolsqademo",
+  "version": "1.0.0",
+  "description": "Automation script for Tools QA Demo website written in TestCafe",
+  "main": "index.js",
+  "scripts": {
+    "test-chrome-webTableTest": "testcafe chrome test/WebTableTest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikkapallado/TestCafe-ToolsQADemo.git"
+  },
+  "author": "Niks Pallado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikkapallado/TestCafe-ToolsQADemo/issues"
+  },
+  "homepage": "https://github.com/nikkapallado/TestCafe-ToolsQADemo#readme",
+  "devDependencies": {
+    "testcafe": "^3.0.0"
+  }
+}
