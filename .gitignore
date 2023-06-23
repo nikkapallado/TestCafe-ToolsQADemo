@@ -134,4 +134,6 @@ reports/google/*
 
 #snapshots
 src/images/*
+src/videos/*
+screenshots/Test_Screenshots/*
 
