@@ -9,6 +9,7 @@
     "test-firefox-checkboxTest": "testcafe firefox test/CheckboxTest.js",
     "test:assertions": "testcafe chrome test/Assertion.js --skip-js-errors",
     "test:pom-firefox": "testcafe firefox test/pageObjectModel/tests/*.js --skip-js-errors",
+    "test:pom-browserstack": "testcafe browserstack:edge@89.0:Windows 7 test/pageObjectModel/tests/*.js --skip-js-errors",
     "test:dataDriven-excel-chrome": "testcafe chrome test/DataDrivenExcelTest.js --video src/videos --video-options failedOnly=true --skip-js-errors",
     "test:dataDriven-json-chrome": "testcafe chrome test/DataDrivenJsonTest.js --video src/videos --video-options failedOnly=true --skip-js-errors",
     "test-chrome-visualTesting-screenshot-takeSnapshot-base": "testcafe chrome test/visualTesting.js -s src/images --take-snapshot base",
@@ -31,6 +32,7 @@
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "node-xlsx": "^0.23.0",
     "testcafe": "^3.0.0",
-    "testcafe-blink-diff": "^0.5.5"
+    "testcafe-blink-diff": "^0.5.5",
+    "testcafe-browser-provider-browserstack": "^1.15.0"
   }
 }

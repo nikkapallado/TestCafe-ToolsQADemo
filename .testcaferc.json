@@ -1,0 +1,17 @@
+{ 
+    "browsers": ["browserstack:iPhone XS@14","browserstack:OnePlus 7@9.0"],
+    "src": "test/pageObjectModel/tests",
+    "screenshots": {
+        "path":  "./configuration_file/screenshots/",
+        "takeOnFails": true, 
+        "fullPage": false
+    },
+    "videoPath": "./configuration_file/videos/",
+    "skipJsErrors": true, 
+    "concurrency": 1,
+    "selectorTimeOut": 5000,
+    "assertionTimeOut": 5000,
+    "pageLoadTimeOut": 5000,
+    "speed": 1
+
+} 
