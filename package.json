@@ -9,7 +9,8 @@
     "test-firefox-checkboxTest": "testcafe firefox test/CheckboxTest.js",
     "test:assertions": "testcafe chrome test/Assertion.js --skip-js-errors",
     "test:pom-firefox": "testcafe firefox test/pageObjectModel/tests/*.js --skip-js-errors",
-    "test:dataDriven-chrome": "testcafe chrome test/DataDrivenExampleTest.js --video src/videos --video-options failedOnly=true --skip-js-errors",
+    "test:dataDriven-excel-chrome": "testcafe chrome test/DataDrivenExcelTest.js --video src/videos --video-options failedOnly=true --skip-js-errors",
+    "test:dataDriven-json-chrome": "testcafe chrome test/DataDrivenJsonTest.js --video src/videos --video-options failedOnly=true --skip-js-errors",
     "test-chrome-visualTesting-screenshot-takeSnapshot-base": "testcafe chrome test/visualTesting.js -s src/images --take-snapshot base",
     "test-chrome-visualTesting-screenshot-takeSnapshot-actual": "testcafe chrome test/visualTesting.js -s src/images --take-snapshot actual",
     "test:multiple-window-chrome": "testcafe chrome test/MultipleWindowTest.js --skip-js-errors --disable-native-automation",
@@ -28,6 +29,7 @@
   "homepage": "https://github.com/nikkapallado/TestCafe-ToolsQADemo#readme",
   "devDependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "node-xlsx": "^0.23.0",
     "testcafe": "^3.0.0",
     "testcafe-blink-diff": "^0.5.5"
   }
